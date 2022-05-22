@@ -1,76 +1,73 @@
-<!DOCTYPE html>
+[6:41 PM, 5/22/2022] Haritha: <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>signup</title>
-</head>
-<body align="center">
-    <table align="center">
-    <tr>
-    <td><img src="https://www.freeiconspng.com/thumbs/spotify-icon/spotify-icon-2.png" width="70px" height="70px" alt=""></td>
-    <td><h1>Spotify</h1></td>
-    </tr>
-    </table>
-    <hr>
-    <button style="background-color: cornflowerblue;"><a href="https://www.facebook.com" style="text-decoration: none;"><font color="white">SIGN UP WITH FACEBOOK</font></a></button>
-    <hr>
-    <h3>Sign up with your email address</h3>
-    <table align="center" cellspacing="6">
-        <tr><td><input type="Email" placeholder="Email"></td></tr>
-        <tr><td><input type="Confirm email" placeholder="Confirm email"></td></tr>
-        <tr><td><input type="Password" placeholder="Password"></td></tr>
-        <tr><td><input type="text" placeholder="What should we call you?"></td></tr>
-        <tr><td>Date of birth:</td></tr>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="databox">
+      <table>
         <tr>
-            <td>
-                <select name="Month" id="">
-                    <option value="Month">Month</option>
-                    <option value="january">january</option>
-                    <option value="february">february</option>
-                    <option value="march">march</option>
-                    <option value="april">april</option>
-                    <option value="may">may</option>
-                    <option value="june">june</option>
-                    <option value="july">july</option>
-                    <option value="august">august</option>
-                    <option value="september">september</option>
-                    <option value="october">october</option>
-                    <option value="november">november</option>
-                    <option value="december">december</option>
-                </select>
-                <input type="text" placeholder="Day">
-                <input type="text" placeholder="Year">
-            </td>
+          <td>Student Registration no:</td>
+          <td>
+            <input
+              type="text"
+              name="StudentName"
+              maxlength="10"
+              placeholder=""
+            />
+          </td>
         </tr>
-        <tr>
-            <td>
-                <input type="radio" name="gender" value="male">Male
-                <input type="radio" name="gender" value="female">Female
-                <input type="radio" name="gender" value="non-binary">Non-binary
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <input type="checkbox">share my registeration data with Spotify's content providers for marketing purposes.
-            </td>
-        </tr>
-    </table>
-    <table align="center" border="3">
-        <tr>
-            <td><input type="checkbox">I'm not a robot <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/RecaptchaLogo.svg/1200px-RecaptchaLogo.svg.png" width="50" height="50" alt=""></td>
-        </tr>
-    </table>
-    <p>By clicking on Sign up,you agree to Spotify's <a href="Terms and Conditions of use." style="text-decoration: none; color: greenyellow; "><font color="green">Terms and Conditions of use</font></a></p>
 
-    <p>To learn more about how spotify collects,uses,shares and protects your personals data please read spotify's <a href="Privacy Policy." style="text-decoration: none; color: greenyellow"><font color="green">Privacy Policy.</font></a></p>
-    <table align="center">
         <tr>
-            <td>
-                <button style="background-color: blue;"><font color="white">SIGN UP</font></button>
-            </td>
+          <td>Branch & Section:</td>
+          <td><input type="text" name="" /></td>
         </tr>
-    </table>
-</body>
+        <tr>
+          <td>UPI/UTR No:</td>
+          <td><input type="text" name="id" maxlength=""</td>
+        </tr>
+        <tr>
+          <td>Transaction Date:</td>
+          <td><input type="date" name="transactiondate" /></td>
+        </tr>
+        <tr>
+          <td>Amount Paid:</td>
+          <td><input type="number"</td>
+        </tr>
+        <tr>
+          <td>Hostel Details:</td>
+          <td>
+            <input
+              type="text-area"
+              placeholder="Hostel and room No:"
+              name="hostel"
+            />
+          </td>
+        </tr>
+      </table>
+      <br />
+      <div class="text-center">
+        <button type="button" class="btn btn-outline-success">SUBMIT</button>
+      </div>
+      <br />
+      <br />
+    </div>
+  </body>
 </html>
